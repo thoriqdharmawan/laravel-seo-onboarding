@@ -7,4 +7,8 @@
     <div class="py-3">
         {{ $slot }}
     </div>
+
+    <div class="w-full d-flex justify-content-end mt-3">
+        <button type="button" class="btn">Selengkapnya &gt;</button>
+    </div>
 </div>
