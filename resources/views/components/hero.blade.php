@@ -1,5 +1,5 @@
-<section class="hero text-center text-dark d-flex align-items-center bg-primary-subtle" style="height: 80vh;">
-    <div>
+<section class="hero text-dark d-flex align-items-center bg-primary-subtle" style="height: 80vh;">
+    <div class="container d-flex flex-column justify-content-center align-items-center gap-4">
         <div class="d-flex gap-4 flex-row">
             <x-cta-item>Jogja Smart Service</x-cta-item>
             <x-cta-item>Aduan</x-cta-item>
