@@ -18,6 +18,12 @@ class Aside extends Component
             ['title' => 'Berita 5: Tailwind vs Bootstrap', 'thumbnail' => 'https://placehold.co/120x120'],
         ];
 
-        return view('components.aside', compact('articles'));
+        $slides = [
+            ['image' => 'https://placehold.co/800x400', 'caption' => 'Slide Pertama'],
+            ['image' => 'https://placehold.co/800x400', 'caption' => 'Slide Kedua'],
+            ['image' => 'https://placehold.co/800x400', 'caption' => 'Slide Ketiga'],
+        ];
+
+        return view('components.aside', compact('articles', 'slides'));
     }
 }

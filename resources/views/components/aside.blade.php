@@ -4,4 +4,5 @@
 
     <x-twibon></x-twibon>
     <x-scroll-article :articles="$articles"></x-scroll-article>
+    <x-aside-carousel :slides="$slides"></x-aside-carousel>
 </aside>
