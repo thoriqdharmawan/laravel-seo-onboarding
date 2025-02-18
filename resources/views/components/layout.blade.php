@@ -17,9 +17,22 @@
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
     <x-navbar></x-navbar>
 
-    <main class="container my-5">
-        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            {{ $slot }}
+    <x-hero></x-hero>
+
+    <main class="container">
+        <div class="row justify-content-start">
+            <div class="col-9">
+                {{ $slot }}
+            </div>
+            <div class="col-3">
+                <aside>
+                    <h3>Artikel Terkait</h3>
+                    <ul>
+                        <li><a href="#">Artikel 1</a></li>
+                        <li><a href="#">Artikel 2</a></li>
+                    </ul>
+                </aside>
+            </div>
         </div>
     </main>
 

@@ -1,3 +1,3 @@
 <x-layout>
-    <div>hoempage</div>
+    <x-latest-info></x-latest-info>
 </x-layout>
