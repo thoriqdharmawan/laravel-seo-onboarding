@@ -8,6 +8,7 @@
     </div>
     <div class="col-4">
         <x-section-wrapper>
+            <x-slot:title>PENGUMUMAN</x-slot>
             <x-news-item-horizontal></x-news-item-horizontal>
             <x-news-item-horizontal></x-news-item-horizontal>
             <x-news-item-horizontal></x-news-item-horizontal>
