@@ -23,9 +23,7 @@
         </div>
     </main>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Pemerintah Kota Yogyakarta</p>
-    </footer>
+    <x-footer></x-footer>
 </body>
 
 </html>
