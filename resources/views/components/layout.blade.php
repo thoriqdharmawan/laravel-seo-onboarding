@@ -25,7 +25,7 @@
                 {{ $slot }}
             </div>
             <div class="col-3">
-                <aside>
+                <aside class="my-5">
                     <h3>Artikel Terkait</h3>
                     <ul>
                         <li><a href="#">Artikel 1</a></li>
