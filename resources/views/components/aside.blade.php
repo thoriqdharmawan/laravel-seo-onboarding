@@ -3,6 +3,7 @@
         aria-describedby="search">
 
     <x-twibon></x-twibon>
+    <x-video-embed></x-video-embed>
     <x-scroll-article :articles="$articles"></x-scroll-article>
     <x-aside-carousel :slides="$slides"></x-aside-carousel>
 </aside>

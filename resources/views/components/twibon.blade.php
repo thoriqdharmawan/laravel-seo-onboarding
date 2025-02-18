@@ -1,4 +1,4 @@
-<div class="card mb-3 border-0 shadow">
+<div class="card border-0 shadow">
     <div class="card-body p-0">
         <h5 class="card-title text-center border-bottom p-3 text-success m-0">Buat Twibon</h5>
         <p class="m-0 text-center p-2 text-success fw-semibold">HUT ke-53 Korpri Kota Yogyakarta</p>
