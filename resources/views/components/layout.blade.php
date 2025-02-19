@@ -5,9 +5,48 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>{{ $title ?? 'Portal Pemerintahan Kota Yogyakarta' }}</title>
 
-    <!-- Fonts -->
+    <meta name="description"
+        content="{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta. Berisi informasi layanan publik, berita, dan pengumuman resmi.' }}">
+
+    <meta name="keywords" content="Pemerintahan Kota Yogyakarta, Layanan Publik, Berita Yogyakarta, Pengumuman Resmi">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ $title ?? 'Portal Pemerintahan Kota Yogyakarta' }}">
+    <meta property="og:description"
+        content="{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta. Berisi informasi layanan publik, berita, dan pengumuman resmi.' }}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ asset('images/og-image.jpg') }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $title ?? 'Portal Pemerintahan Kota Yogyakarta' }}">
+    <meta name="twitter:description"
+        content="{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta. Berisi informasi layanan publik, berita, dan pengumuman resmi.' }}">
+    <meta name="twitter:image" content="{{ asset('images/twitter-card.jpg') }}">
+
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "GovernmentOrganization",
+        "name": "Pemerintah Kota Yogyakarta",
+        "url": "{{ url('/') }}",
+        "logo": "{{ asset('images/logo.png') }}",
+        "description": "{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta.' }}",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+62-123-1234567",
+            "contactType": "customer service"
+        }
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
