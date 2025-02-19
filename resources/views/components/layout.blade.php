@@ -24,10 +24,14 @@
     <meta property="og:image" content="{{ asset('images/images/proses-pembangunan.webp') }}">
 
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@yogyakartakota">
     <meta name="twitter:title" content="{{ $title ?? 'Portal Pemerintahan Kota Yogyakarta' }}">
     <meta name="twitter:description"
         content="{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta. Berisi informasi layanan publik, berita, dan pengumuman resmi.' }}">
     <meta name="twitter:image" content="{{ asset('images/proses-pembangunan.webp') }}">
+
+    <meta property="article:published_time" content="2025-02-19T10:00:00+07:00">
+    <meta property="article:modified_time" content="2025-02-20T14:30:00+07:00">
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
@@ -38,7 +42,7 @@
         "name": "Pemerintah Kota Yogyakarta",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('images/logo.png') }}",
-        "description": "{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta.' }}",
+        "description": "Website resmi portal pemerintahan Kota Yogyakarta.",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+62-123-1234567",
