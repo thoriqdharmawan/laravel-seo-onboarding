@@ -58,12 +58,12 @@
 
     <x-hero></x-hero>
 
-    <main class="container">
-        <div class="row justify-content-start">
-            <div class="col-9">
+    <main class="container-md">
+        <div class="row justify-content-start px-3 px-md-0">
+            <div class="col-xl-9 col-12">
                 {{ $slot }}
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-12">
                 <x-aside></x-aside>
             </div>
         </div>

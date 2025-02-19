@@ -5,7 +5,7 @@
         <h1 class="text-black text-center fs-6 m-0 d-inline-block">PEMERINTAH KOTA YOGYAKARTA</h1>
     </div>
     <nav class="nav d-flex justify-content-center py-1">
-        <ul class="nav">
+        <ul class="nav d-flex justify-content-center text-capitalize">
             <li class="nav-item"><a class="nav-link text-white-50" href="#home">Beranda</a></li>
             <li class="nav-item"><a class="nav-link text-white-50" href="#tentang">profil</a></li>
             <li class="nav-item"><a class="nav-link text-white-50" href="#informasi">informasi</a></li>

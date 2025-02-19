@@ -5,7 +5,7 @@
                 masyarakat yang berkebudayaan dan dengan pemerintahan yang berorientasi pada pelayanan publik.</p>
 
             <div>
-                <div class="d-flex gap-2 justify-content-center">
+                <div class="d-flex flex-md-row flex-column gap-2 justify-content-center">
                     <p class="m-0">Pengunjung saat ini : 23</p>
                     <p class="m-0">Hari ini : 1.359</p>
                     <p class="m-0">Bulan ini : 224.651</p>

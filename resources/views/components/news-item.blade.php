@@ -1,4 +1,4 @@
-<div class="col-4">
+<div class="col-12 col-sm-6 col-md-4">
     <div class="card border-0 shadow p-3">
         <img src="https://placehold.co/160x110" class="card-img rounded-lg" alt="news thumbnail">
         <div class="card-body pt-3 px-0 pb-0">

@@ -1,5 +1,5 @@
 <div class="row justify-content-start mt-5 mb-3">
-    <div class="col-8">
+    <div class="col-12 col-lg-8">
         <h2 class="fs-5 fw-normal d-inline-block border-bottom border-success border-2 pb-1">INFO TERKINI</h2>
         <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -28,7 +28,7 @@
             </button>
         </div>
     </div>
-    <div class="col-4">
+    <div class="col-12 col-lg-4 mt-lg-0 mt-4">
         <x-section-wrapper>
             <x-slot:title>PENGUMUMAN</x-slot>
             <x-news-item-horizontal></x-news-item-horizontal>
