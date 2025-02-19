@@ -4,8 +4,11 @@
             <div class="card border-0 border-bottom">
                 <div class="row g-0 d-flex align-items-center">
                     <div class="col-4 p-3">
-                        <img src="{{ $article['thumbnail'] }}" class="img-fluid rounded-circle"
-                            alt="{{ $article['title'] }}">
+                        <div class="ratio ratio-1x1">
+                            <img src="{{ $article['thumbnail'] }}"
+                                class="img-fluid rounded-circle object-fit-cover w-100 h-100"
+                                alt="{{ $article['title'] }}">
+                        </div>
                     </div>
                     <div class="col-8">
                         <div class="card-body">

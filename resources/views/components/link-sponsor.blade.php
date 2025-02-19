@@ -4,7 +4,10 @@
         @foreach ($sponsors as $sponsor)
             <div class="col-6 col-md-3">
                 <div class="card rounded-0 border-0">
-                    <img src="{{ $sponsor['image'] }}" class="card-img-top rounded-0 border-0" alt="sponsor">
+                    <div class="ratio" style="--bs-aspect-ratio: 20%;">
+                        <img src="{{ $sponsor['image'] }}" class="w-100 h-100 object-fit-cover rounded-0 border-0"
+                            alt="sponsor">
+                    </div>
                 </div>
             </div>
         @endforeach

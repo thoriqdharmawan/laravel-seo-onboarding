@@ -11,20 +11,20 @@ class LinkSponsor extends Component
     public function render(): View|Closure|string
     {
         $sponsors = [
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
-            ['image' => 'https://placehold.co/400x80'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
+            ['image' => 'https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/proses-pembangunan_p19jnu.jpg'],
         ];
 
         return view('components.link-sponsor', compact('sponsors'));

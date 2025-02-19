@@ -31,9 +31,9 @@
     <div class="col-12 col-lg-4 mt-lg-0 mt-4">
         <x-section-wrapper>
             <x-slot:title>PENGUMUMAN</x-slot>
-            <x-news-item-horizontal></x-news-item-horizontal>
-            <x-news-item-horizontal></x-news-item-horizontal>
-            <x-news-item-horizontal></x-news-item-horizontal>
+            @foreach ($announcements as $item)
+                <x-news-item-horizontal :news="$item" />
+            @endforeach
         </x-section-wrapper>
     </div>
 </div>
