@@ -1,6 +1,6 @@
 <div class="card">
     <img src="https://res.cloudinary.com/dc1ngxsqz/image/upload/f_auto,q_auto,w_auto/v1739931396/cld-sample-2.jpg"
-        class="img-fluid object-fit-cover" style="min-height: 80vh" alt="hero">
+        class="img-fluid object-fit-cover" style="min-height: 80vh" title="hero" alt="hero">
 
     <div class="card-img-overlay d-flex align-items-center">
         <div class="container d-flex flex-column justify-content-center align-items-center gap-4">

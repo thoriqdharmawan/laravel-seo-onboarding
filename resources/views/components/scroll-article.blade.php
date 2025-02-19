@@ -6,7 +6,7 @@
                     <div class="col-4 p-3">
                         <div class="ratio ratio-1x1">
                             <img src="{{ $article['thumbnail'] }}"
-                                class="img-fluid rounded-circle object-fit-cover w-100 h-100"
+                                class="img-fluid rounded-circle object-fit-cover w-100 h-100" title="{{ $article['title'] }}"
                                 alt="{{ $article['title'] }}">
                         </div>
                     </div>

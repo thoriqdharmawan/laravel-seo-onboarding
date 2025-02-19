@@ -6,7 +6,8 @@
                 @foreach ($news as $index => $item)
                     <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
                         <div class="card text-bg-dark border-0 rounded-lg">
-                            <img src="{{ $item['image'] }}" class="card-img" alt="thumbnail">
+                            <img src="{{ $item['image'] }}" title="{{ $item['title'] }}" class="card-img"
+                                alt="thumbnail">
                             <div class="card-img-overlay d-flex align-items-end bg-black bg-opacity-25">
                                 <div>
                                     <time class="card-text" datetime="{{ $item['date'] }}">

@@ -21,13 +21,13 @@
     <meta property="og:description"
         content="{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta. Berisi informasi layanan publik, berita, dan pengumuman resmi.' }}">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('images/og-image.jpg') }}">
+    <meta property="og:image" content="{{ asset('images/images/proses-pembangunan.webp') }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $title ?? 'Portal Pemerintahan Kota Yogyakarta' }}">
     <meta name="twitter:description"
         content="{{ $description ?? 'Website resmi portal pemerintahan Kota Yogyakarta. Berisi informasi layanan publik, berita, dan pengumuman resmi.' }}">
-    <meta name="twitter:image" content="{{ asset('images/twitter-card.jpg') }}">
+    <meta name="twitter:image" content="{{ asset('images/proses-pembangunan.webp') }}">
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 

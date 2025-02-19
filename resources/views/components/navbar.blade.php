@@ -1,6 +1,6 @@
 <header class="bg-dark text-white d-flex flex-column justify-content-center">
     <div class="bg-white d-flex justify-content-center align-items-center gap-3 py-1">
-        <img src="https://cdn.jogjakota.go.id/media/logo/logo-pemkot.png" alt="logo"
+        <img src="https://cdn.jogjakota.go.id/media/logo/logo-pemkot.png" title="Pemkot Jogja" alt="logo"
             style="width: auto; height: 28px" />
         <h1 class="text-black text-center fs-6 m-0 d-inline-block">PEMERINTAH KOTA YOGYAKARTA</h1>
     </div>

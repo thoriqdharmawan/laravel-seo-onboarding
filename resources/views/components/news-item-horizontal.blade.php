@@ -1,7 +1,8 @@
 <div class="card mb-3 w-full border-0">
     <div class="row g-0">
         <div class="col-3">
-            <img src="{{ $news['image'] }}" class="img-fluid rounded" alt="{{ $news['title'] }}" loading="lazy">
+            <img src="{{ $news['image'] }}" class="img-fluid rounded" title="{{ $news['title'] }}"
+                alt="{{ $news['title'] }}" loading="lazy">
         </div>
         <div class="col-9">
             <div class="card-body py-0">
